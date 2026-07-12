@@ -811,6 +811,11 @@ h2.about-heading {
 .featured-project-media .project-image-btn {
   border-radius: 8px;
 }
+.featured-project-media {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
 
 .featured-project-title {
   font-size: var(--fs-xl);
